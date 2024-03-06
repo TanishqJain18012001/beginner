@@ -1,4 +1,47 @@
-.pb{
-    width: 70%;
-    color: red;
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+.introduction .name h2{
+    margin-bottom: 5px;
+}
+
+.introduction .info p  {
+    margin-top: 5px;
+}
+.html,.css,.js{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.html-bar1,.css-bar1,.js-bar1{
+    width: 50%;
+    background-color: rgb(233, 220, 220);
+    border-radius: 5px;
+}
+.html-bar2 {
+    width: 70%;
+    background-color: red;
+    text-align: center;
+    padding-right: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+.css-bar2 {
+    width: 60%;
+    background-color: blue;
+    text-align: center;
+    padding-right: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}.js-bar2 {
+    width: 80%;
+    background-color: green;
+    text-align: center;
+    padding-right: 5px;
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+
